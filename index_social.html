@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Sidebar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="sidebar">
+    <div class="sidebar-top-wrapper">
+      <div class="sidebar-top">
+        <a href="#" class="logo__wrapper">
+          <img src="assets/logo.svg" alt="Crestline Bank Logo" class="logo">
+          <span class="hide company-name">
+            Crestline Bank
+          </span>
+        </a>
+      </div>
+      <button class="expand-btn" type="button"><!-- svg --></button>
+    </div>
+    <div class="sidebar-links-wrapper">
+      <div class="sidebar-links">
+        <ul>
+          <li>
+            <a href="#dashboard" title="Dashboard" >
+              <!-- svg dashboard -->
+              <span class="link hide">Dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a href="#bank-accounts" title="Bank Accounts" class="tooltip main-item" >
+              <!-- svg bank accounts -->
+              <span class="link hide">Bank Accounts</span>
+              <!-- svg arrow -->
+            </a>
+            <ul class="hide">
+              <li>
+                <a href="#income" title="Income">
+                  Income
+                </a>
+              </li>
+              <!-- more links -->
+            </ul>
+          </li>
+          <!-- more links -->
+        </ul>
+      </div>
+    </div>
+    <div class="sidebar__profile">
+      <div class="avatar__wrapper">
+        <img class="avatar" src="assets/natalia.jpg" alt="Joe Doe Picture">
+      </div>
+      <div class="avatar__name hide">
+        <div class="user-name">Natalia Bartošová</div>
+        <div class="email">@natalia_bartosova</div>
+      </div>
+      <!-- logout svg -->
+    </div>
+  </nav>
+  <script src="script.js"></script>
+</body>
+
+</html>
